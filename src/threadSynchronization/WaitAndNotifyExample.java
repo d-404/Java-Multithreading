@@ -35,7 +35,7 @@ public class WaitAndNotifyExample {
         synchronized (LOCK) {
             System.out.println("Hello from method two");
             LOCK.notify();
-            System.out.println("Back again in method two after notifying");
+            System.out.println("In method two after notifying");
         }
     }
 }
